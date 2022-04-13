@@ -1,0 +1,4 @@
+python3 example.py --datasets <BeforeType> --img_path <ImagePath> --label <AnnotationFilePath> --convert_output_path <Output(YoloFormat)SavingPath> --img_type “<Image'sType>” --manifest_path <ManifestFileSavingPath> --cls_list_file <.namesFilePath>
+
+EX)
+python3 example.py --datasets COCO --img_path ./example/dataset/COCOJSON/BC2000201/ --label ./example/dataset/COCOJSON/labels.json --convert_output_path ./example/dataset/YOLOv4/ --img_type “.jpg” --manifest_path ./example/dataset --cls_list_file ./example/dataset/COCOJSON/classes.names
