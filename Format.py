@@ -370,8 +370,8 @@ class COCO:
                     onebndbox={
                         "xmin": anno["bbox"][cls_cnt][0],
                         "ymin": anno["bbox"][cls_cnt][1],
-                        "xmax": anno["bbox"][cls_cnt][2] + anno["bbox"][cls_cnt][0],
-                        "ymax": anno["bbox"][cls_cnt][3] + anno["bbox"][cls_cnt][1]
+                        "xmax": anno["bbox"][cls_cnt][2],
+                        "ymax": anno["bbox"][cls_cnt][3]
                     }
 
                     one_object={
